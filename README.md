@@ -1,37 +1,33 @@
-De
 #include<iostream>
-
-
-using namespace std;
-
-
-int main()
+usingnamespacestd;
+classstudent
 {
-int a,b;
-cout<<"enter two number "; cin>>a>>b;
-
- 
-try
+public:
+class
+result
 {
-
-
-
-
-
-
+intmaths,oops,sst;
+intresult;
+public:
+voidfun2()
+{
+cout<<"THEMARKSOFSTUDENTIN\n1=MATHS\n2=OOPS\n3=SST"<<endl;
+cin>>maths>>oops>>sst;
+result=maths+oops+sst;
+cout<<endl<<endl;
+cout<<"RESULTOFSTUDENT="<<result<<endl<<endl;
 }
- 
-
-
-
-if(b==0)
-
-
-throw b; cout<<"result="<<a/b;
- 
-
-
-catch(int m)
+};
+resultobj3;
+public:
+voidgetdata()
 {
-cout<<"input number is not valid = "<<m;
+cout<<"ENTERYOURMARKS\n";
+obj3.fun2();
 }
+public:
+classaddress
+{
+public:
+charhome[10];
+public:
