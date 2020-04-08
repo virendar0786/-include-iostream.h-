@@ -1,37 +1,20 @@
-De
 #include<iostream>
-
-
-using namespace std;
-
-
-int main()
+#include<string>
+usingnamespacestd;
+intmain()
 {
-int a,b;
-cout<<"enter two number "; cin>>a>>b;
-
- 
-try
+intsum=0;
+int*myarray=NULL;
+myarray=newint[5];
+for(inti=0;i<5;i++)
 {
-
-
-
-
-
-
+cin>>myarray[i];
 }
- 
-
-
-
-if(b==0)
-
-
-throw b; cout<<"result="<<a/b;
- 
-
-
-catch(int m)
+cout<<"myarrayvalue=";
+for(inti=0;i<5;i++)
 {
-cout<<"input number is not valid = "<<m;
+sum=sum+myarray[i];
+}
+cout<<sum;
+delete[]myarray;
 }
